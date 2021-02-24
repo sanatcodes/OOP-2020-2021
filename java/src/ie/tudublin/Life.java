@@ -108,6 +108,26 @@ public class Life extends PApplet {
 
     }
 
+    public void clearBoard(){
+        for(int row = 0 ; row < size ; row ++)
+        {
+            for (int col = 0 ; col < size ; col ++)
+            {
+                setCell(board, row, col, false);
+            }
+        }
+    }
+
+    public void crossShape(){
+        for(int row = 0 ; row < size ; row ++)
+        {
+            for (int col = 0 ; col < size ; col ++)
+            {
+                setCell(board, row, col, false);
+            }
+        }
+    }
+
     private void printBoard(boolean[][] board)
     {
         for(int row = 0 ; row < size ; row ++)
@@ -152,13 +172,21 @@ public class Life extends PApplet {
     public void keyPressed() {
         if (keyCode == ' ')
         {
+            if (paused){
+                paused = false;
+            }
+            else{
+                paused = true;
+            }
         }
         
         if (keyCode == '1')
         {
+            randomize();
         }
         if (keyCode == '2')
         {
+            clearBoard();
         }
         if (keyCode == '3')
         {
@@ -182,25 +210,56 @@ public class Life extends PApplet {
         //printBoard(board);        
     }
 
+    
+
     private void updateBoard()
     {
+        if(!paused){
         // Put code here to apply the rules!!
-
-        
+        for(int row = 0; row < size; row++){
+            for(int col = 0; col < size; col++){
+                //cell is alive
+                if(board[row][col]){
+                    if(countNeighbours(row, col) == 2 || countNeighbours(row, col) == 3 )
+                    {
+                        next[row][col] = true;
+                    }
+                    else
+                    {
+                        next[row][col] = false;
+                    }
+                }
+                else{
+                    if(countNeighbours(row, col) == 3 )
+                    {
+                        next[row][col] = true;
+                    }
+                    else
+                    {
+                        next[row][col] = false;
+                    }
+                }
+            }
+        }
         // Swap board and next
         boolean[][] temp = board;
         board = next;
         next = temp;
+        }
     }
 
     public void mouseDragged()
     {
-        // This method gets called automatically when the mouse is dragged across the screen
+        int r = (int)map(mouseY,0,width,0,size);
+        int c = (int)map(mouseX,0,height,0,size);
+        setCell(board, r, c, true);
+        
     }
 
     public void draw() {
         background(0);
         drawBoard(board);        
         updateBoard();
+        mouseDragged();
     }
 }
