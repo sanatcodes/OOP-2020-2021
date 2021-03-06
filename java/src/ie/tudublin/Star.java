@@ -21,7 +21,7 @@ public class Star {
         float x = PApplet.map(xG, -5, 5, border, pa.width - border);
         float y = PApplet.map(yG, -5, 5, border, pa.width - border);
         pa.stroke(255, 255, 0);
-        pa.line(x - 5, y, x + 5, y);
+        pa.line(x - 5, y, x + 5, y); 
         pa.line(x, y - 5, x, y + 5);
         pa.stroke(255, 0, 0);
         pa.noFill();
