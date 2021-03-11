@@ -18,6 +18,7 @@ public class Audio1 extends PApplet {
     public void settings()
     {
         size(512, 512);
+        // fullScreen(P3D, SPAN); // Try this for full screen multiple monitor support :-) Be careful of exceptions!
     }
 
     float y = 300;
