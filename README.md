@@ -39,7 +39,13 @@ Resources
 - https://github.com/skooter500/OOP_Labtest1_2017_Starter
 - https://github.com/skooter500/OOP-LabTest1-2016
 
+# Week 8 - FFT
+- [Video of the class](https://web.microsoftstream.com/video/e9483fdd-c3d6-4b48-a88b-8adbf7752175?list=studio)
+
 # Week 7 - Audio
+
+## Tutorial
+- [Video of the Tutorial](https://web.microsoftstream.com/video/9dcc9000-39e8-4fce-a0e6-a9f75084f6f9?list=studio)
 
 ## Lab 
 ### Learning Outcomes
