@@ -2,9 +2,9 @@
 
 # Teams Links for online classes:
 
-- [Monday Class](https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjUzNjZlMDMtOTNhZi00MDYyLThkODgtNzQxYjBjZDY3YTg0%40thread.v2/0?context=%7b%22Tid%22%3a%22766317cb-e948-4e5f-8cec-dabc8e2fd5da%22%2c%22Oid%22%3a%2261aab78b-a857-4647-9668-83d4cca5de03%22%7d)
-- [Wednesday Labs](https://teams.microsoft.com/l/meetup-join/19%3ameeting_OWVjNDM4NTAtOGJhOC00MjEyLTkzMTMtNzA3OTgwOGNhZTYw%40thread.v2/0?context=%7b%22Tid%22%3a%22766317cb-e948-4e5f-8cec-dabc8e2fd5da%22%2c%22Oid%22%3a%2261aab78b-a857-4647-9668-83d4cca5de03%22%7d)
-- [Thursday Tutorial](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGU3Mzg3N2YtMzkxZC00OThjLWFmNjItYzVlNDZhNWY5OWY2%40thread.v2/0?context=%7b%22Tid%22%3a%22766317cb-e948-4e5f-8cec-dabc8e2fd5da%22%2c%22Oid%22%3a%2261aab78b-a857-4647-9668-83d4cca5de03%22%7d)
+- [Monday 12:00-14:00 Class](https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjUzNjZlMDMtOTNhZi00MDYyLThkODgtNzQxYjBjZDY3YTg0%40thread.v2/0?context=%7b%22Tid%22%3a%22766317cb-e948-4e5f-8cec-dabc8e2fd5da%22%2c%22Oid%22%3a%2261aab78b-a857-4647-9668-83d4cca5de03%22%7d)
+- [Wednesday 16:00-18:00 Labs](https://teams.microsoft.com/l/meetup-join/19%3ameeting_OWVjNDM4NTAtOGJhOC00MjEyLTkzMTMtNzA3OTgwOGNhZTYw%40thread.v2/0?context=%7b%22Tid%22%3a%22766317cb-e948-4e5f-8cec-dabc8e2fd5da%22%2c%22Oid%22%3a%2261aab78b-a857-4647-9668-83d4cca5de03%22%7d)
+- [Thursday 09:00 Tutorial](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGU3Mzg3N2YtMzkxZC00OThjLWFmNjItYzVlNDZhNWY5OWY2%40thread.v2/0?context=%7b%22Tid%22%3a%22766317cb-e948-4e5f-8cec-dabc8e2fd5da%22%2c%22Oid%22%3a%2261aab78b-a857-4647-9668-83d4cca5de03%22%7d)
 - [Sign in Sheet for labs](https://docs.google.com/spreadsheets/d/1dpzq-iS3DPHBin2oT_txSlmsIEVo_zs524FemMm-2vI/edit?usp=sharing)
 
 Resources
@@ -39,7 +39,17 @@ Resources
 - https://github.com/skooter500/OOP_Labtest1_2017_Starter
 - https://github.com/skooter500/OOP-LabTest1-2016
 
+# Week 10 - Inheritance & Abstract Classes, Bullets in the YASC game
+## Lecture
+- [Video of the class](https://web.microsoftstream.com/video/07c190ba-948c-48ea-be72-552ef0a99526)
+- [Inheritance](https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html)
+- [Abstract classes](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html)
+
 # Week 9 - YASC
+
+## Tutorial
+- [Video of the tutorial](https://web.microsoftstream.com/video/d6815f87-624b-43a6-8331-7c7b912a10d4?list=studio)
+
 ## Lecture
 - [Download YASC](https://skooter500.itch.io/)
 - [YASC code](http://github.com/skooter500/YASC)
